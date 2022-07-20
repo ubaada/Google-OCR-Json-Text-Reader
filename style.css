@@ -1,0 +1,29 @@
+
+body {
+    background-color: #d5d5d5;
+    margin: 0;
+}
+.page {
+    width: 60%;
+    position: relative;
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%;
+    min-height: 700px;
+    margin-left: 20%;
+    /* vertical-align: inherit; */
+    text-align: center;
+	page-break-after:always;
+}
+@media screen and (max-width: 600px) {
+.page {
+    background-color: lightblue;
+	width: 90%;
+	margin-left: 5%;
+  }
+}
+
+.para {
+    position: absolute;
+    float: left;
+}
